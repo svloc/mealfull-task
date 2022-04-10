@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+ }
+
+body{
+  background-color: #20262e;
+  color: #fff;
+  font-weight: 300;
+  font-size: 0.845rem;
+}
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  padding: 0.75em;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  font-size: 14px;
+}
+.graph-component {
+  width: 80%;
+  margin: 20px auto;
+  background: #00000054;
+  border: 1px solid blue;
+    border-radius: 0.25rem;
+}
