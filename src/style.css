@@ -53,3 +53,7 @@ td, th {
     margin-right: 2rem;
     margin-bottom: 1rem;
 }
+.head{
+  text-align: center;
+    padding: 1.5rem;
+}

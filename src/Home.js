@@ -67,7 +67,7 @@ export default function Home(p) {
    }
    schedule_1=getScheduleCounter(new Date(date));
   }
-  
+
   return (
     <div className="graph-component">
       {!showMore && (
@@ -92,6 +92,7 @@ export default function Home(p) {
       {showMore && (
         <div>
           <div>
+            <h3 className="head">Schedule Slot</h3>
             <table>
               <tr>
                 <th>9AM to 12AM </th>
