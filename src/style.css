@@ -10,7 +10,7 @@
 body{
   background-color: #20262e;
   color: #fff;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.845rem;
 }
 .react-datepicker-wrapper,
@@ -22,9 +22,34 @@ body{
   font-size: 14px;
 }
 .graph-component {
-  width: 80%;
+  width: 65%;
   margin: 20px auto;
   background: #00000054;
   border: 1px solid blue;
     border-radius: 0.25rem;
+}
+
+table {
+  width: 95%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #a20c8d;
+  text-align: center;
+  padding: 8px;
+}
+.btn{
+  padding: 0.45rem 1rem;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #000;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.btn-div{
+  text-align: right;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
 }
